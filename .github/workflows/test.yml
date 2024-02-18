@@ -3,7 +3,7 @@ name: Run Tests
 on:
   push:
     branches: [main] # Run tests when pushing to the main branch
-  pull_request_target:
+  pull_request:
     branches: [main] # Run tests for pull requests to the main branch
 
 jobs:
