@@ -1,3 +1,5 @@
+// proper solution of the problem for the ones who cannot solve the problem 
+
 function findMax(numbers) {
   if (numbers.length === 0) {
     return undefined; // If the array is empty, return undefined
