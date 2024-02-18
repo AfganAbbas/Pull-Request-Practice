@@ -1,4 +1,4 @@
-// proper solution of the problem for the ones who cannot solve the problem 
+// proper solution of the problem for the ones who cannot solve the problem
 
 function findMax(numbers) {
   if (numbers.length === 0) {
@@ -16,4 +16,4 @@ function findMax(numbers) {
   return max; // Return the maximum value found
 }
 
-module.exports = findMax;
+export default findMax;
