@@ -6,7 +6,7 @@ function findMax(numbers) {
 
   let max = numbers[0]; // Assume the first element is the maximum
 
-  for (let i = 1; i < numbers.length; i++) {
+  for (let i = 1; i < numbers.length - 1; i++) {
     if (numbers[i] > max) {
       max = numbers[i]; // If we find a number greater than current max, update max
     }
