@@ -1,0 +1,21 @@
+name: Run Tests
+
+on:
+  push:
+    branches: [main] # Run tests when pushing to the main branch
+  pull_request:
+    branches: [main] # Run tests for pull requests to the main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
